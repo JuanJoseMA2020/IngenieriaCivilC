@@ -1,0 +1,86 @@
+<br>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<h3>Información del encuestado <span class="badge badge-secondary"></span></h3>
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombre</label>
+      <input type="text" class="form-control" id="1"  placeholder="Nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Apellido</label>
+      <input type="text" class="form-control" id="2"  placeholder="Apellido">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Celular</label>
+      <input type="text" class="form-control" id="3" placeholder="Celular">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Correo</label>
+        <input type="text" class="form-control" id="4" placeholder="alguien@gmail.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Cédula</label>
+        <input type="text" class="form-control" id="5" placeholder="Nacional o extranjería">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Dirección</label>
+        <input type="text" class="form-control" id="6" placeholder="Dirección">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Nombre de unidad</label>
+        <input type="text" class="form-control" id="7" placeholder="Opcional">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Departamento</label>
+        <input type="text" class="form-control" id="8" placeholder="">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Municipio</label>
+        <input type="text" class="form-control" id="9" placeholder="">
+      </div>
+    <h4>Nivel de formación <span class="badge badge-secondary"></span></h4>
+    <select class="form-control form-control-lg">
+        <option>Primaria</option>
+        <option>Bachillerato</option>
+        <option>Técnico</option>
+        <option>Técnologo</option>
+        <option>Universitario</option>
+        <option>Ninguno</option>
+      </select>
+    <h6>Años de construcción</h6>  
+      <select class="form-control form-control-lg">
+        <option>Antes de 1963</option>
+        <option>Entre 1963 & 1984</option>
+        <option>Entre 1985 & 1997</option>
+        <option>Entre 1998 & 2010</option>
+        <option>A partir del 2011</option>
+      </select>  
+      <h6>¿Fue construida por alguna entidad o empresa constructora?</h6> 
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="10" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Si</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="11" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">No</label>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre de constructora</label>
+        <input type="text" class="form-control" id="12" aria-describedby="emailHelp" placeholder="Opcional">
+      </div>
+      <h6>Política de datos</h6>
+    <div class="form-check con" >
+        <input type="checkbox" class="form-check-input" id="13">
+        <label class="form-check-label" for="exampleCheck1">Autorizo el tratamiento de mis datos</label>
+      </div>
+      <h1></h1>
+      <button type="button" class="btn btn-danger" [routerLink]="['/secondform']">Siguiente</button>
+  </form>
+    
+  
+
+
+
+
+  
+
